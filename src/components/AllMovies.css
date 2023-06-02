@@ -11,19 +11,20 @@
   gap: 5px;
 }
 .movie-div {
-  width: 90px;
-  height: 200px;
+  width: 130px;
+  height: 300px;
   background-color: rgb(218, 186, 186);
   margin: 10px;
   border-radius: 5px;
   border: 1px white solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .details {
-  width: 90px;
+  width: 130px;
   height: 70px;
-  background-color: aquamarine;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: rgb(217, 221, 220);
 }

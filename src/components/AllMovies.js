@@ -12,13 +12,13 @@ function AllMovies(){
 {movies.map((info)=>
     // <li key={info.id}>{info.title}</li>
       <div className="movie-div" key={info.id}>
-        <div><img src={info.image} height="130px" width="90px" /></div>
-        <div className="details">
+        <div><img src={info.image} height="190px" width="130px" /></div>
+        {/* <div className="details"> */}
         <div>{info.title}</div>
         <div>{info.rating}</div>
         <div>{info.director}</div>
         <div>{info.trailer}</div>
-        </div>
+        {/* </div> */}
       </div>
 )}
  </div>
