@@ -17,7 +17,7 @@ function AllMovies(){
         <div>{info.title}</div>
         <div>{info.rating}</div>
         <div>{info.director}</div>
-        <div>{info.trailer}</div>
+        <a href={info.trailer}>Watch Trailer</a>
         {/* </div> */}
       </div>
 )}
